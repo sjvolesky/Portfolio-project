@@ -31,6 +31,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+.text {
+  background: var(--secondary-color);
+}
 
 .hero {
   background-color: var(--secondary-color);
@@ -76,6 +79,7 @@ h2 {
   }
   h2 {
     font-size: 42px;
+    margin-top: 50px;
   }
   .hero {
     padding: 80px 20px;
