@@ -32,7 +32,13 @@ h2 {
   font-size: 64px;
 }
 .text {
-  background: var(--secondary-color);
+  margin-top: 80px;
+}
+.text-2 {
+  margin-top: -80px;
+}
+.text-3 {
+  margin-top: -80px;
 }
 
 .hero {
@@ -51,6 +57,20 @@ h2 {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 84px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
 }
 .btn-branding {
   background: var(--branding-color);
@@ -75,11 +95,11 @@ h2 {
 @media (max-width: 960px) {
   h1 {
     font-size: 42px;
-    line-height: 2;
+    line-height: 56px;
   }
   h2 {
     font-size: 42px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
   .hero {
     padding: 80px 20px;
@@ -87,5 +107,9 @@ h2 {
   .newborn-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
