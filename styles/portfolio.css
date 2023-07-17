@@ -74,6 +74,7 @@ h2 {
 }
 .newborn-container {
   padding: 160px 20px;
+  margin-top: -100px;
 }
 .newborn-container h1 {
   font-size: 64px;
