@@ -99,8 +99,7 @@ footer .social-links a:hover {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.hero,
-.contact h1 {
+.hero {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
@@ -131,6 +130,18 @@ footer .social-links a:hover {
 .about-section-content {
   margin: 30px;
 }
+
+.newborn-description {
+  padding: 120px 60px;
+}
+
+.newborn-container img,
+.one-two-container img,
+.three-four-container img {
+  width: 500px;
+  margin-left: 100px;
+}
+
 .one-two-container {
   padding: 160px 20px;
   margin-top: -100px;
@@ -152,6 +163,10 @@ footer .social-links a:hover {
   margin-top: -100px;
 }
 
+.single {
+  margin-left: 325px;
+}
+
 .three-four-container h1 {
   font-size: 64px;
   line-height: 84px;
@@ -165,13 +180,16 @@ footer .social-links a:hover {
 }
 .contact-container {
   padding: 160px 20px;
-  margin-top: -160px;
+  margin: -160px 0;
 }
 
 .contact-container h1 {
   font-size: 64px;
   line-height: 84px;
+  background: var(--secondary-color);
+  padding: 160px 20px;
 }
+
 .contact-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
@@ -210,10 +228,6 @@ footer .social-links a:hover {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-}
-
-.newborn-description {
-  padding: 120px 60px;
 }
 
 .logo {
