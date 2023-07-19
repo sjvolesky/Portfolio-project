@@ -31,6 +31,30 @@ h1 {
 h2 {
   font-size: 64px;
 }
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 .text {
   margin-top: 80px;
 }
@@ -41,6 +65,10 @@ h2 {
   margin-top: -80px;
 }
 
+.container {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -145,6 +173,10 @@ h2 {
 
 .newborn-description {
   padding: 120px 60px;
+}
+
+.logo {
+  max-width: 150px;
 }
 
 @media (max-width: 960px) {
