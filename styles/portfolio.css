@@ -254,4 +254,9 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+  .newborn-container img,
+  .one-two-container img,
+  .three-four-container img {
+    margin: 0;
+  }
 }
